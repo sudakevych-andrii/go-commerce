@@ -1,0 +1,23 @@
+# Binaries
+/bin/
+*.exe
+*.test
+*.out
+
+# Coverage
+coverage.*
+*.coverprofile
+
+# Env files (secrets) — .env.example IS committed
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Local data volumes (if ever bind-mounted)
+/deploy/data/
